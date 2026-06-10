@@ -22,7 +22,7 @@ FINMIND_TOKEN = os.environ.get('FINMIND_TOKEN', '').strip()
 GOOGLE_CREDENTIALS = os.environ.get('GOOGLE_CREDENTIALS', '').strip()
 SPREADSHEET_ID = os.environ.get('SPREADSHEET_ID', '').strip()
 
-EXCLUDE_WORDS = ["爆料", "同學會", "達人", "無腦", "學堂", "康和", "券商分點", "存股"]
+EXCLUDE_WORDS = ["爆料", "同學會", "達人", "無腦", "學堂", "康和", "券商分點", "存股","財神"]
 THIN_LINE = "─────────────"
 
 RANK_EMOJI = ["①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩",
